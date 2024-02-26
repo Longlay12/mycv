@@ -1,0 +1,178 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: gray;
+    padding: 0px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 20px;
+}
+
+.main {
+    grid-area: main;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 20px;
+
+}
+
+.signin {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    border-color: black;
+
+}
+
+.signup {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+    border-color: black;
+
+}
+
+.normal {
+    border: 1px solid white;
+    color: gray;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    vertical-align: middle;
+
+}
+
+.footer-right {
+    border: 0px solid #EEEEEE;
+    color: gray;
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    padding: 10px;
+    vertical-align: middle;
+
+}
+
+.right {
+    float: right;
+}
+
+.headerleft {
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    background-color: white;
+    padding: 20px;
+    border: 0px solid white;
+    width: 250px;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.avatar {
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.intro-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.intro-bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-intro {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.img-cour {
+    display: block;
+    padding: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+body {
+    background-color: #EEEEEE;
+    margin: 0px;
+}
+
+.cour {
+    background-color: white;
+    padding: 0px;
+    border: 0px solid white;
+    width: 260px;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.avatar-small {
+    border-radius: 50%;
+    display: flex;
+    padding-right: 5px;
+}
+
+.cour-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.infor {
+    padding: 10px;
+}
+
+.total-cour {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.total {
+    padding: 0px;
+    margin: 50px;
+}
